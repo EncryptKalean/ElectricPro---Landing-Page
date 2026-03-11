@@ -1,0 +1,160 @@
+@media (width < 75rem) {
+  /* #background {
+    background: grey;
+  } */
+
+  #fundo_ferramentas {
+    right: 0;
+  }
+
+  #container_textos {
+    margin-left: 10%;
+  }
+}
+
+@media (width < 56.25rem) {
+  /* #background {
+    background: blue;
+  } */
+
+  /* BASE */
+
+  h2 {
+    font-size: 4rem;
+    margin: 5% 0;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.7rem;
+  }
+
+  .card {
+    padding: 4% 2%;
+  }
+
+  /* HERO */
+
+  #fundo_ferramentas {
+    height: 90%;
+    top: 25%;
+    right: -10%;
+  }
+
+  #container_textos {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  #container_textos #cta {
+    margin: 0 auto;
+    margin-top: 2%;
+    width: 90%;
+    font-size: 4rem;
+  }
+
+  /* SERVIÇOS */
+
+  #servicos_container li {
+    gap: 5%;
+  }
+
+  #servicos_container li svg {
+    width: 30%;
+  }
+
+  /* CLIENTES */
+
+  #clientes_container li > svg {
+    width: 20%;
+  }
+}
+
+@media (width < 37.5rem) {
+  /* #background {
+    background: green;
+  } */
+
+  /* BASE */
+
+  section {
+    margin-bottom: 100px;
+  }
+
+  /* HERO */
+
+  #fundo_ferramentas {
+    /* height: 80%; */
+    right: -30%;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  #container_textos {
+    padding: 0;
+  }
+
+  #container_textos ul {
+    flex-direction: column;
+    text-align: left;
+    gap: 0;
+    padding-left: 2%;
+  }
+
+  #container_textos li::before {
+    content: "●";
+    color: var(--cor_tema);
+    margin-right: 8px;
+  }
+
+  #container_textos #cta {
+    margin-top: 3%;
+    width: 95%;
+    font-size: 3rem;
+    padding: 2%;
+  }
+
+  /* SERVIÇOS */
+
+  ul {
+    gap: 20px;
+  }
+
+  #servicos_container li {
+    gap: 3%;
+  }
+
+  /* CONTATO */
+
+  #contato_container {
+    padding: 3%;
+    align-items: center;
+  }
+
+  #contato_container label {
+    font-size: 1.7rem;
+  }
+
+  #contato_container input,
+  #contato_container textarea {
+    padding: 5px;
+    padding-left: 10px;
+  }
+
+  #contato_whats svg {
+    color: inherit;
+    width: 10%;
+  }
+
+  /* FOOTER */
+
+  footer {
+    display: block;
+    text-align: center;
+  }
+}

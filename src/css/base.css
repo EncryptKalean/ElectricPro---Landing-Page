@@ -1,0 +1,148 @@
+:root {
+  --cor_texto: white;
+  --cor_tema: #fbca55;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+*:focus-visible {
+  outline: 3px solid #4a90e2;
+  outline-offset: 5px;
+}
+
+section:focus-visible {
+  outline-color: transparent;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+  color: var(--cor_texto);
+  background-color: black;
+}
+
+#background {
+  height: 100dvh;
+  width: 100%;
+  background:
+    linear-gradient(black, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), black) no-repeat,
+    url("../img/background.webp") no-repeat center / cover;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--cor_tema) transparent;
+  scroll-snap-type: y proximity;
+}
+
+/* WebKit (Chrome, Edge, Safari) */
+#background::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* trilho (fundo da barra) */
+#background::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* parte que se move (thumb) */
+#background::-webkit-scrollbar-thumb {
+  background-color: var(--cor_tema);
+  border-radius: 6px;
+}
+
+h1,
+h2,
+h3,
+span {
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  font-size: 5rem;
+  text-align: center;
+  margin: 0;
+  /* margin-top: 0; */
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 2.2rem;
+}
+
+section {
+  width: 100%;
+  min-height: 100dvh;
+  /* border: 1px solid red; */
+  position: relative;
+  align-content: center;
+  scroll-snap-align: center;
+}
+
+section > * {
+  position: inherit;
+  padding: 2%;
+}
+
+svg {
+  color: var(--cor_tema);
+  width: 80%;
+  aspect-ratio: 1;
+}
+
+/* .divisor {
+  height: 70px;
+  width: 100%;
+  border: 1px solid red;
+  background-color: rgb(0, 0, 0);
+  position: relative;
+  z-index: 1;
+  transform: translateY(-50%);
+  filter: blur(15px);
+} */
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.card {
+  background: url("../img/card.webp") no-repeat center / cover;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  padding: 2%;
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: scale 0.5s;
+}
+
+.card:hover {
+  scale: 1.05;
+}
+
+a,
+button {
+  transition: 0.5s;
+}
+
+a:hover,
+button:hover {
+  filter: brightness(1.1);
+  scale: 1.05;
+}

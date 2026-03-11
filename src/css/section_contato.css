@@ -1,0 +1,56 @@
+#contato_container {
+  aspect-ratio: 0;
+  width: 95%;
+  max-width: 800px;
+  height: auto;
+  margin: 0 auto;
+  gap: 10px;
+  flex-direction: column;
+  align-items: start;
+}
+
+#contato_container label {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#contato_container input,
+#contato_container textarea {
+  width: 100%;
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 1.6rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  color: inherit;
+  margin-bottom: 20px;
+}
+
+input.erro {
+  border: 2px solid red;
+}
+
+textarea{
+  min-height: 130px;
+  resize: vertical;
+}
+
+#contato_whats {
+  width: 100%;
+  color: var(--cor_texto);
+  background: linear-gradient(350deg, #253f2e, #689051);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  padding: 1%;
+  gap: 15px;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contato_whats svg {
+  color: inherit;
+  width: 40px;
+}

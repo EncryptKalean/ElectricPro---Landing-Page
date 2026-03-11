@@ -1,0 +1,10 @@
+#servicos_container li{
+    gap: 7%;
+    min-width: 250px;
+    max-width: 400px;
+    width: calc(90% / 3);
+}
+
+#servicos_container li svg{
+    width: 40%;
+}
