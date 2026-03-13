@@ -72,5 +72,5 @@
   background: transparent;
   color: var(--cor_tema);
   border-color: var(--cor_tema);
-  scale: 1.1;
+  transform: scale(1.1);
 }

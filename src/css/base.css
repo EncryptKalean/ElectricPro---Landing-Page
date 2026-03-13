@@ -133,7 +133,7 @@ ul {
 }
 
 .card:hover {
-  scale: 1.05;
+  transform: scale(1.05);
 }
 
 a,
@@ -144,5 +144,5 @@ button {
 a:hover,
 button:hover {
   filter: brightness(1.1);
-  scale: 1.05;
+  transform: scale(1.05);
 }
