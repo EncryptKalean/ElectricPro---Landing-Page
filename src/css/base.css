@@ -96,9 +96,13 @@ section > * {
 }
 
 svg {
-  color: var(--cor_tema);
+  color: inherit;
   width: 80%;
   aspect-ratio: 1;
+}
+
+section svg {
+  color: var(--cor_tema);
 }
 
 /* .divisor {
@@ -129,7 +133,7 @@ ul {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  transition: scale 0.5s;
+  transition: transform 0.5s;
 }
 
 .card:hover {
@@ -145,4 +149,51 @@ a:hover,
 button:hover {
   filter: brightness(1.1);
   transform: scale(1.05);
+}
+
+#whatsapp_float {
+  z-index: 2;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  width: 60px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  align-content: center;
+  text-align: center;
+  overflow: hidden;
+  padding: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  animation: pulse 1.2s infinite ease-in-out;
+}
+
+#whatsapp_float:hover {
+  animation-play-state: paused;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.hidden{
+  opacity: 0;
+  transform: translateY(25px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.show{
+  opacity: 1;
+  transform: translateY(0);
 }

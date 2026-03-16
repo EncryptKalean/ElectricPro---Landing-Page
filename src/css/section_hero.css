@@ -54,7 +54,7 @@
   margin-right: 8px;
 }
 
-#container_textos #cta {
+.cta {
   display: block;
   width: 60%;
   text-align: center;
@@ -65,10 +65,20 @@
   border: 2px solid transparent;
   border-radius: 10px;
   font-size: 3rem;
+  justify-self: center;
 }
 
+#section_hero .cta {
+  justify-self: auto;
+}
 
-#container_textos #cta:hover {
+#como_funciona .cta{
+  margin-top: 20px;
+  padding: .5%;
+  width: 40vw;
+}
+
+.cta:hover {
   background: transparent;
   color: var(--cor_tema);
   border-color: var(--cor_tema);

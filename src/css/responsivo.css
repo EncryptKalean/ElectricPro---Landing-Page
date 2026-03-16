@@ -49,7 +49,7 @@
     text-align: center;
   }
 
-  #container_textos #cta {
+  .cta {
     margin: 0 auto;
     margin-top: 2%;
     width: 90%;
@@ -112,7 +112,7 @@
     margin-right: 8px;
   }
 
-  #container_textos #cta {
+  .cta {
     margin-top: 3%;
     width: 95%;
     font-size: 3rem;

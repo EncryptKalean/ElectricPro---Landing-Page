@@ -60,3 +60,20 @@ form.addEventListener('submit', (e) => {
     // Abre o WhatsApp em uma nova aba com a mensagem preenchida
     window.open(url, "_blank");
 });
+
+// ==========================
+// SCROLL-ANIMATION (HIDDEN & SHOW)
+// ==========================
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+            observer.unobserve(entry);
+        };
+    })
+}, { threshold: 0.3 });
+
+const hidden = document.querySelectorAll('.hidden');
+
+hidden.forEach(el => observer.observe(el));

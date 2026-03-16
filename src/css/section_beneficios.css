@@ -1,0 +1,10 @@
+#beneficios_container li{
+    gap: 10%;
+    min-width: 200px;
+    max-width: 350px;
+    width: calc(90% / 4);
+}
+
+#beneficios_container li svg{
+    width: 40%;
+}

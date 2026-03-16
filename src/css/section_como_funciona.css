@@ -1,0 +1,11 @@
+#explicacao_container li{
+    gap: 5%;
+    min-width: 200px;
+    max-width: 300px;
+    width: calc(90% / 3);
+    justify-content: center;
+}
+
+#explicacao_container h3{
+    color: var(--cor_tema);
+}
