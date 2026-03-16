@@ -8,11 +8,13 @@ O objetivo é demonstrar habilidades de desenvolvimento front-end criando uma p�
 
 O projeto destaca-se por:
 
-- Layout moderno e profissional.
-- Estrutura leve e otimizada, sem uso de frameworks.
-- Design totalmente responsivo.
-- Integração direta com WhatsApp para contato rápido.
-- Boas práticas de acessibilidade e semântica HTML.
+- Layout moderno e profissional focado em conversão
+- Estrutura leve e otimizada, sem uso de frameworks
+- Design totalmente responsivo
+- Integração direta com WhatsApp para contato rápido
+- Animações suaves ao scroll (scroll reveal)
+- Botão flutuante de contato via WhatsApp
+- Boas práticas de acessibilidade e semântica HTML
 
 ---
 
@@ -21,11 +23,21 @@ O projeto destaca-se por:
 https://encryptkalean.github.io/ElectricPro---Landing-Page/
 
 
-📸 Preview
+📸 Preview do projeto
 
-![WebNova Preview](https://github.com/EncryptKalean/ElectricPro---Landing-Page/blob/main/src/img/preview.webp?raw=true)
+![ElectricPro Preview](https://github.com/EncryptKalean/ElectricPro---Landing-Page/blob/main/src/img/preview.webp?raw=true)
 
 ---
+
+## ✨ Features
+
+- Hero section com chamada de ação clara
+- Seção "Por que nós?" para reforço de confiança
+- Área de depoimentos com carrossel
+- Seção "Como funciona" explicando o processo de atendimento
+- Formulário integrado ao WhatsApp
+- Botão flutuante para contato rápido
+- Animações suaves ao scroll
 
 
 ## 💬 Formulário Inteligente
@@ -54,10 +66,11 @@ O design foi pensado para transmitir profissionalismo e confiança, elementos es
 Principais características visuais:
 
 - Card com efeito glassmorphism
-- Botões com destaque visual
-- Layout centralizado para foco no formulário
-- Background fixo com efeito parallax leve, criando sensação de profundidade durante o scroll
-- Background com textura sutil para dar profundidade
+- Botões com destaque visual e microinterações
+- Animações suaves de entrada ao scroll
+- Layout centralizado para foco na conversão
+- Background fixo com efeito de profundidade durante o scroll
+- Elementos visuais pensados para destacar CTAs
 
 ---
 
