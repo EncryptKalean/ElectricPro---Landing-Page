@@ -74,9 +74,10 @@
 }
 
 @media (width < 37.5rem) {
-  /* #background {
-    background: green;
-  } */
+  #background {
+    /* background: green; */
+    scroll-snap-type: none;
+  }
 
   /* BASE */
 
@@ -114,7 +115,6 @@
 
   .cta {
     margin-top: 3%;
-    width: 95%;
     font-size: 3rem;
     padding: 2%;
   }

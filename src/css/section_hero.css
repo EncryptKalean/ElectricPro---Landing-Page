@@ -75,7 +75,7 @@
 #como_funciona .cta{
   margin-top: 20px;
   padding: .5%;
-  width: 40vw;
+  /* width: 40vw; */
 }
 
 .cta:hover {

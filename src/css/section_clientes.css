@@ -1,6 +1,6 @@
 #clientes_container li{
     gap: 6%;
-    min-width: 250px;
+    min-width: 150px;
     max-width: 350px;
     width: calc(90% / 2);
 }
@@ -13,4 +13,8 @@
 .estrelas{
     display: flex;
     width: 40%;
+}
+
+#clientes_container h3{
+    font-size: 2rem;
 }

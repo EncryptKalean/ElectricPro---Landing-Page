@@ -1,9 +1,10 @@
 #explicacao_container li{
     gap: 5%;
-    min-width: 200px;
+    min-width: 150px;
     max-width: 300px;
     width: calc(90% / 3);
     justify-content: center;
+    padding: 10px;
 }
 
 #explicacao_container h3{
